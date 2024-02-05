@@ -1,0 +1,67 @@
+.fundos-conteudo {
+    margin: 1em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imagem-fundoVerde {
+    width: 100%;
+}
+
+.fundo-frame1 {
+    display: none;
+}
+
+.fundos-desktop-continuacao {
+     display: none;
+}
+
+@media (min-width: 1400px) {
+    .fundos-conteudo {
+        margin: 1em 10em;
+    }
+
+    .itens-razer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagens-mobile {
+        display: none;
+    }
+
+    .primeiro-conteudo {
+        display: flex;
+    }
+
+    .fundo-frame1{
+        width: 80%;
+        display: flex;
+    }
+
+    .fundos-desktop {
+        margin: 2em 0;
+    }
+
+    .fundos-desktop-continuacao {
+        display: flex;
+        margin: 1em 0;
+        justify-content: center;
+    }
+
+    .imagem-cadeira {
+        display: none;
+    }
+
+    .frames-fundo-imagens {
+       margin: 1em 0 1em 4em;
+    }
+
+    .conjunto-de-frames {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 4em;
+    }
+}

@@ -1,0 +1,164 @@
+.ultimas-noticias-descricao {
+    display: flex;
+    background: linear-gradient(180deg, #2F3651 0%, #363C57 51.56%, #2F3653 100%);
+    border-radius: 12px;
+    margin: 1em 1em;
+    gap: 20px;
+}
+
+.ultimas-noticias-itens {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 10px;
+}
+
+.ultimas-noticias-titulo {
+    font-weight: 700;
+    font-size: 10px;
+    color: #747DA4;
+}
+
+.ultimas-noticias-texto {
+    font-weight: 600;
+    font-size: 8px;
+    color: #a6adcd;
+    height: 44px;
+}
+
+.ultimas-noticias-botao {
+    text-align: center;
+    border-radius: 8px;
+    background-color: #8FFF00;
+    padding: 0.3em 0.7em;
+    font-size: 8px;
+}
+
+.ultimas-noticias-botao:hover {
+    background-color: #c4fa7c;
+}
+
+.ultimos-jogos-conteudo {
+    display: flex;
+    margin: 1em 1em;
+    background: linear-gradient(180deg, #2F3651 0%, #363C57 51.56%, #2F3653 100%);
+    border-radius: 12px;
+    gap: 20px;
+}
+
+.ultimos-jogos-descricao {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 10px;
+     padding-left: 1em;
+}
+
+.ultimos-jogos-titulo{
+    font-size: 10px;
+    font-weight: 700;
+    color: #747DA4;
+}
+
+.ultimos-jogos-texto {
+    font-weight: 600;
+    font-size: 8px;
+    color: #a6adcd;
+}
+
+.ultimos-jogos-botao {
+    font-weight: 700;
+    font-size: 8px;
+    color: #282B3A;
+    background-color: #747DA4;
+    padding: 0.3em 0.7em;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.ultimos-jogos-botao:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.imagem-email {
+     margin: 1em 1em;
+     width: 94%;
+}
+
+.ultimas-noticias-botao-desktop {
+    display: none;
+}
+
+.imagem-email-desktop{
+    display: none;
+}
+
+@media (min-width: 1400px) {
+    .ultimas-noticias-conteudo{
+         display: flex;
+         justify-content: center;
+    }
+
+    .ultimos-jogos-conteudo {
+        flex-direction: row-reverse;
+        width: 632px;
+        height: 277px;
+    }
+
+    .ultimas-noticias-descricao {
+        width: 632px;
+        height: 277px;
+    }
+
+    .ultimas-noticias-itens {
+        justify-content: space-around;
+    }
+    
+    .ultimas-noticias-titulo {
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .ultimas-noticias-texto {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        width: 283px;
+        height: 114px;
+    }
+
+    .ultimos-jogos-descricao {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .ultimas-noticias-botao {
+        display: none;
+    }
+
+    .ultimas-noticias-botao-desktop {
+        width: 132px;
+        height: 29px;
+        border-radius: 8px;
+        padding: 5px 10px;
+        background-color: #8FFF00;
+        color: #203800;
+        font-size: 14px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagem-email {
+        display: none;
+    }
+
+    .imagem-email-desktop {
+        margin: 2em 11em;
+        width: 80%;
+    }
+}

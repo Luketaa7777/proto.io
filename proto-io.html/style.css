@@ -1,0 +1,21 @@
+@import url("estilos.css/cabecalho.css");
+@import url("estilos.css/gear.css");
+@import url("estilos.css/loja.css");
+@import url("estilos.css/nosso-time.css");
+@import url("estilos.css/fundos.css");
+@import url("estilos.css/ultimas-noticias.css");
+@import url("estilos.css/rodape.css");
+
+:root {
+    --azul-claro: #747DA4;
+    --branco: #ffffff;
+    --verde: #8FFF00;
+    --preto: #000000;
+    --azul-escuro: #212430;
+    --fonte-principal :'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: var(--azul-escuro);
+    font-family: var(--fonte-principal);
+}
